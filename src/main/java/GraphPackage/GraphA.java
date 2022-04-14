@@ -10,6 +10,10 @@ public class GraphA {
         return gen;
     }
 
+    public void setGen(Generator gen) {
+        this.gen = gen;
+    }
+
     public void Method() {
         gen.begin();
         gen.end();
